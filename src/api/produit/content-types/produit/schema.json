@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produits",
+  "info": {
+    "singularName": "produit",
+    "pluralName": "produits",
+    "displayName": "produit",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prixMax": {
+      "type": "float"
+    },
+    "prixMin": {
+      "type": "float"
+    },
+    "date": {
+      "type": "date"
+    },
+    "libelle": {
+      "type": "string"
+    },
+    "code": {
+      "type": "uid"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Casablanca-Settat",
+        "Marrakech-Safi",
+        "Rabat-Salé-Kénitra",
+        "Tanger-Tétouan-Al Hoceïma",
+        "Fès-Meknès",
+        "Souss-Massa",
+        "Béni Mellal-Khénifra",
+        "Drâa-Tafilalet",
+        "Laâyoune-Sakia El Hamra",
+        "Guelmim-Oued Noun",
+        "Dakhla-Oued Ed Dahab",
+        "L'Oriental"
+      ]
+    },
+    "detail": {
+      "type": "dynamiczone",
+      "components": [
+        "mdg.marche-de-gros"
+      ]
+    }
+  }
+}

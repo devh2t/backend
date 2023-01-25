@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_mdg_marche_de_gros",
+  "info": {
+    "displayName": "marche_de_gros",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ville": {
+      "type": "enumeration",
+      "enum": [
+        "Al Hoceima",
+        "Larache",
+        "Ouazzane",
+        "Tanger",
+        "Tétouan",
+        "Berkane ",
+        "Nador ",
+        "Oujda ",
+        "Taourirt",
+        "Fès",
+        "Meknès",
+        "Taza",
+        "Béni-Mellal",
+        "Khénifra",
+        "Khouribga",
+        "Rabat",
+        "Kénitra",
+        "Khémisset",
+        "Casablanca ",
+        "El Jadida ",
+        "Settat",
+        "Essaouira",
+        "Kelâat Sraghna",
+        "Marrakech",
+        "Safi",
+        "Er-Rachidia",
+        "Ouarzazate",
+        "Zagora",
+        "Agadir/inezgane",
+        "Ouled Teïma",
+        "Tiznit",
+        "Laâyoune",
+        "Guelmim",
+        "Dakhla"
+      ]
+    },
+    "superficie": {
+      "type": "float"
+    },
+    "tonnage_capte": {
+      "type": "float"
+    }
+  }
+}
